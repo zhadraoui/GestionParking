@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="750.0" prefWidth="1500.0" stylesheets="@../../../../img/stylehseet2.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.gi.groupe5.ControllersViews.MainControllers">
+    <left>
+        <VBox alignment="TOP_CENTER" styleClass="sidebar">
+        <children>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" smooth="false">
+                <image>
+                    <Image url="@../../../../img/user-icon.png" />
+                </image>
+                <VBox.margin>
+                    <Insets top="10.0" />
+                </VBox.margin>
+            </ImageView>
+            <Button fx:id="btn_login" contentDisplay="RIGHT" styleClass="sidebar-user-btn" text="name login">
+                <font>
+                    <Font name="Calibri Bold" size="28.0" />
+                </font>
+            </Button>
+            <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="250.0" text="Main" textFill="#b8b1b1">
+                <font>
+                    <Font name="Calibri Bold" size="14.0" />
+                </font>
+                <padding>
+                    <Insets left="10.0" />
+                </padding>
+                <VBox.margin>
+                    <Insets bottom="10.0" top="10.0" />
+                </VBox.margin>
+            </Label>
+            <Button alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0" prefWidth="250.0" styleClass="sidebar-btn" text="HOME" textFill="#b8b1b1">
+                <padding>
+                    <Insets left="20.0" />
+                </padding>
+                <font>
+                    <Font name="Consolas Bold" size="13.0" />
+                </font>
+                <graphic>
+                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" smooth="false">
+                        <image>
+                            <Image url="@../../../../img/icons8-home-50.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0" prefWidth="250.0" styleClass="sidebar-btn" text="LIVE CAMERAS" textFill="#b8b1b1">
+                <padding>
+                    <Insets left="20.0" />
+                </padding>
+                <font>
+                    <Font name="Consolas Bold" size="13.0" />
+                </font>
+                <graphic>
+                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" smooth="false">
+                        <image>
+                            <Image url="@../../../../img/icons8-bullet-camera-50.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button fx:id="btn_parking" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#openParking" prefHeight="35.0" prefWidth="250.0" styleClass="sidebar-btn" text="Gestion parcs" textFill="#b8b1b1">
+                <padding>
+                    <Insets left="20.0" />
+                </padding>
+                <font>
+                    <Font name="Consolas Bold" size="13.0" />
+                </font>
+                <graphic>
+                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" smooth="false">
+                        <image>
+                            <Image url="@../../../../img/parked-car.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button fx:id="btn_place" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#openPlace" prefHeight="35.0" prefWidth="250.0" styleClass="sidebar-btn" text="Gestion places" textFill="#b8b1b1">
+                <padding>
+                    <Insets left="20.0" />
+                </padding>
+                <font>
+                    <Font name="Consolas Bold" size="13.0" />
+                </font>
+                <graphic>
+                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" smooth="false">
+                        <image>
+                            <Image url="@../../../../img/icons8-parking-50.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button fx:id="btn_vehicule" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#openVehicule" prefHeight="35.0" prefWidth="250.0" styleClass="sidebar-btn" text="Gestion vehicule" textFill="#b8b1b1">
+                <padding>
+                    <Insets left="20.0" />
+                </padding>
+                <font>
+                    <Font name="Consolas Bold" size="13.0" />
+                </font>
+                <graphic>
+                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" smooth="false">
+                        <image>
+                            <Image url="@../../../../img/car.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button fx:id="btn_occupation" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#openOccupation" prefHeight="35.0" prefWidth="250.0" styleClass="sidebar-btn" text="Gestion reservations" textFill="#b8b1b1">
+                <padding>
+                    <Insets left="20.0" />
+                </padding>
+                <font>
+                    <Font name="Consolas Bold" size="13.0" />
+                </font>
+                <graphic>
+
+                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" smooth="false">
+                        <image>
+                            <Image url="@../../../../img/icons8-reservation-50.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button fx:id="btn_tarif" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#openTarif" prefHeight="35.0" prefWidth="250.0" styleClass="sidebar-btn" text="Gestion tarifs" textFill="#b8b1b1">
+                <padding>
+                    <Insets left="20.0" />
+                </padding>
+                <font>
+                    <Font name="Consolas Bold" size="13.0" />
+                </font>
+                <graphic>
+                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" smooth="false">
+                        <image>
+                            <Image url="@../../../../img/tarifs.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button fx:id="btn_detection" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#openDetecion" prefHeight="35.0" prefWidth="250.0" styleClass="sidebar-btn" text="Detection matricule" textFill="#b8b1b1">
+                <padding>
+                    <Insets left="20.0" />
+                </padding>
+                <font>
+                    <Font name="Consolas Bold" size="13.0" />
+                </font>
+                <graphic>
+                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" smooth="false">
+                        <image>
+                            <Image url="@../../../../img/upload.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Label layoutX="10.0" layoutY="137.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="250.0" text="Admin" textFill="#b8b1b1">
+                <font>
+                    <Font name="Calibri Bold" size="14.0" />
+                </font>
+                <padding>
+                    <Insets left="10.0" />
+                </padding>
+                <VBox.margin>
+                    <Insets top="20.0" />
+                </VBox.margin>
+            </Label>
+            <Button fx:id="btn_user" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#openUser" prefHeight="35.0" prefWidth="250.0" styleClass="sidebar-btn" text="Gestion users" textFill="#b8b1b1">
+                <padding>
+                    <Insets left="20.0" />
+                </padding>
+                <font>
+                    <Font name="Consolas Bold" size="13.0" />
+                </font>
+                <graphic>
+                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" smooth="false">
+                        <image>
+                            <Image url="@../../../../img/user-settings.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button fx:id="Btn_password" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#openUpdatePassword" prefHeight="35.0" prefWidth="250.0" styleClass="sidebar-btn" text="Change password" textFill="#b8b1b1">
+                <padding>
+                    <Insets left="20.0" />
+                </padding>
+                <font>
+                    <Font name="Consolas Bold" size="13.0" />
+                </font>
+                <graphic>
+                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" smooth="false">
+                        <image>
+                            <Image url="@../../../../img/password.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+
+            <Button fx:id="btn_Client" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#openClient" prefHeight="35.0" prefWidth="250.0" styleClass="sidebar-btn" text="Gestion clients" textFill="#b8b1b1">
+                <padding>
+                    <Insets left="20.0" />
+                </padding>
+                <font>
+                    <Font name="Consolas Bold" size="13.0" />
+                </font>
+                <graphic>
+                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" smooth="false">
+                        <image>
+                            <Image url="@../../../../img/client-icon.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button fx:id="btn_logout" alignment="BASELINE_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#Open_Logout" prefHeight="35.0" prefWidth="250.0" styleClass="sidebar-btn" text="SIGN OUT" textFill="#b8b1b1">
+                <padding>
+                    <Insets left="20.0" />
+                </padding>
+                <graphic>
+                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" smooth="false">
+                        <image>
+                            <Image url="@../../../../img/icons8-export-50.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+                <font>
+                    <Font name="Consolas Bold" size="13.0" />
+                </font>
+            </Button>
+        </children>
+        </VBox>
+    </left>
+    <center>
+        <BorderPane fx:id="borderpane">
+            <top>
+                <HBox alignment="CENTER_LEFT" style="-fx-background-color: #fff;">
+                    <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="1180.0">
+                            <HBox.margin>
+                                <Insets left="10.0" />
+                            </HBox.margin>
+                            <children>
+                                <Label prefHeight="32.0" prefWidth="296.0" styleClass="lbl2" text="Automated Parking Car" textAlignment="CENTER" textFill="#0696ea">
+                                    <font>
+                                        <Font name="Calibri Bold" size="28.0" />
+                                    </font>
+                                </Label>
+                                <HBox prefHeight="38.0" prefWidth="1579.0">
+                                    <children>
+                                        <Label fx:id="name_view" prefHeight="38.0" prefWidth="672.0" styleClass="lbl2" text="Dashboard" textFill="#00a1ff">
+                                            <font>
+                                                <Font name="Brush Script MT Italic" size="26.0" />
+                                            </font>
+                                            <graphic>
+                                            </graphic>
+                                        </Label>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </children>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <padding>
+                        <Insets bottom="10.0" top="10.0" />
+                    </padding>
+                </HBox>
+            </top>
+            <center>
+                
+            </center>
+
+        </BorderPane>
+    </center>
+
+
+</BorderPane>

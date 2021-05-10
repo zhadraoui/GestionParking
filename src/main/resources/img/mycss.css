@@ -1,0 +1,209 @@
+/*!********************************************************************************/
+/* **/
+/* * I will provide this*/
+/* * Tables*/
+/* **/
+/* ******************************************************************************!*/
+/*.table-view, .tree-table-view {*/
+/*    !* Constants used throughout the tableview. *!*/
+/*    -fx-table-header-border-color: transparent;*/
+/*    -fx-table-cell-border-color: -fx-box-border; !* Horizontal Lines*!*/
+/*    -fx-background-color: transparent;*/
+/*}*/
+
+/*!* The column header row is made up of a number of column-header, one for each*/
+/*   TableColumn, and a 'filler' area that extends from the right-most column*/
+/*   to the edge of the tableview, or up to the 'column control' button. *!*/
+/*.table-view .filler, .tree-table-view .filler, .table-view .column-header,*/
+/*.tree-table-view .column-header {*/
+/*    -fx-size: 65;*/
+/*    -fx-border-style: null;*/
+/*    -fx-border-color: -swatch-grey;*/
+/*    -fx-border-width: 0 0 2 0;*/
+/*    -fx-background-color: transparent;*/
+/*}*/
+
+/*.table-view .show-hide-columns-button, .tree-table-view .show-hide-columns-button {*/
+/*    -fx-background-color: transparent;*/
+/*}*/
+
+/*.table-view .column-header .label, .table-view .filler .label,*/
+/*.table-view .column-drag-header .label, .tree-table-view .column-header .label,*/
+/*.tree-table-view .filler .label, .tree-table-view .column-drag-header .label {*/
+/*    -fx-alignment: CENTER_LEFT;*/
+/*}*/
+
+/*.table-view .column-header-background, .tree-table-view .column-header-background {*/
+/*    -fx-background-color: transparent;*/
+/*}*/
+
+/*.table-row-cell, .tree-table-row-cell {*/
+/*    -fx-cell-size: 40px;*/
+/*}*/
+
+/*.table-cell {*/
+/*    -fx-border-color: transparent; !* Vertical Lines*!*/
+/*    -fx-border-width: 1;*/
+/*}*/
+
+.button {
+    -fx-background-color: linear-gradient(to right, #60e1ff, #00b6f8);
+    -fx-background-radius: 0.5em;
+    -fx-text-fill: white;
+    -fx-font-size: 14.0;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 20, 0.5, 0.0, 0.0);
+}
+.label {
+    /*-fx-font-size: 13pt;*/
+    /*-fx-font-family: "Segoe UI Semibold";*/
+    /*-fx-text-fill: white;*/
+    /*-fx-opacity: 0.6;*/
+    /*-fx-stroke: green;*/
+}
+
+/*!********************************************************************************/
+/* **/
+/* * I will provide this*/
+/* * Tables*/
+/* **/
+/* ******************************************************************************!*/
+/*.table-view, .tree-table-view {*/
+/*    !* Constants used throughout the tableview. *!*/
+/*    -fx-table-header-border-color: transparent;*/
+/*    -fx-table-cell-border-color: -fx-box-border; !* Horizontal Lines*!*/
+/*    -fx-background-color: transparent;*/
+/*}*/
+
+/*!* The column header row is made up of a number of column-header, one for each*/
+/*   TableColumn, and a 'filler' area that extends from the right-most column*/
+/*   to the edge of the tableview, or up to the 'column control' button. *!*/
+/*.table-view .filler, .tree-table-view .filler, .table-view .column-header,*/
+/*.tree-table-view .column-header {*/
+/*    -fx-size: 65;*/
+/*    -fx-border-style: null;*/
+/*    -fx-border-color: -swatch-grey;*/
+/*    -fx-border-width: 0 0 2 0;*/
+/*    -fx-background-color: transparent;*/
+/*}*/
+
+/*.table-view .show-hide-columns-button, .tree-table-view .show-hide-columns-button {*/
+/*    -fx-background-color: transparent;*/
+/*}*/
+
+/*.table-view .column-header .label, .table-view .filler .label,*/
+/*.table-view .column-drag-header .label, .tree-table-view .column-header .label,*/
+/*.tree-table-view .filler .label, .tree-table-view .column-drag-header .label {*/
+/*    -fx-alignment: CENTER_LEFT;*/
+/*}*/
+
+/*.table-view .column-header-background, .tree-table-view .column-header-background {*/
+/*    -fx-background-color: transparent;*/
+/*}*/
+
+/*.table-row-cell, .tree-table-row-cell {*/
+/*    -fx-cell-size: 40px;*/
+/*}*/
+
+/*.table-cell {*/
+/*    -fx-border-color: transparent; !* Vertical Lines*!*/
+/*    -fx-border-width: 1;*/
+/*}*/
+
+.button {
+    -fx-background-color: linear-gradient(to right, #60e1ff, #00b6f8);
+    -fx-background-radius: 0.5em;
+    -fx-text-fill: white;
+    -fx-font-size: 14.0;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 20, 0.5, 0.0, 0.0);
+}
+.label {
+    /*-fx-font-size: 13pt;*/
+    /*-fx-font-family: "Segoe UI Semibold";*/
+    /*-fx-text-fill: white;*/
+    /*-fx-opacity: 0.6;*/
+    /*-fx-stroke: green;*/
+}
+
+/*-----------------------------*/
+
+/*!* table view properties *!*/
+
+.table-view{
+    -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color:#FFFFFF;
+    -fx-border-color: #005797;
+    -fx-border-width: 0px 0px 1px 0px ;
+    -fx-border-style: solid;
+}
+
+.table-view:row-selection .column-header-background .filler{
+    -fx-background-color:#FFFFFF;
+}
+.table-view:row-selection .column-header-background .show-hide-columns-button{
+    -fx-background-color:#e0e0e0;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #005797;
+    -fx-font-weight:bold;
+    -fx-font-size:15px;
+}
+
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-pref-height:50px;
+}
+.table-view  .table-column{
+    -fx-padding: 15 0 0 10;
+    -fx-alignment: CENTER;
+    -fx-border-width: 0px 0px 0px 0px ;
+}
+
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background,
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: transparent;
+}
+
+.table-view > .virtual-flow > .scroll-bar > .increment-button,
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 0;
+}
+
+.table-view .table-row-cell{
+    -fx-background-color:#FFF;
+    -fx-font-size:14px;
+    -fx-pref-height:50px;
+    -fx-border-width: 0px 0px 1px 0px ;
+    -fx-border-color:#e0e0e0;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color:#e0e0e0;
+}
+
+.table-view .table-row-cell:selected{
+    -fx-background-color: #005797;
+}
+.table-view:row-selection .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:#e0e0e0;
+    -fx-border-color:#262626;
+}
+.table-view .table-row-cell:empty{
+    -fx-background-color:#FFFFFF;
+    -fx-border-color:#FFFFFF;
+}

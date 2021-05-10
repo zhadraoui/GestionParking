@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="308.0" prefWidth="480.0" stylesheets="@../../../../img/mycss.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.gi.groupe5.ControllersViews.VehiculeCrudController">
+    <children>
+        <TextField fx:id="tb_idvehicule" layoutX="253.0" layoutY="44.0" />
+        <TextField fx:id="tb_matricule" layoutX="253.0" layoutY="111.0" />
+        <Label layoutX="106.0" layoutY="48.0" text="ID Vehicule" />
+        <Label layoutX="111.0" layoutY="115.0" text="Matricule" />
+        <Button fx:id="btn_new" layoutX="44.0" layoutY="218.0" mnemonicParsing="false" onAction="#btn_new" prefHeight="30.0" prefWidth="90.0" text="New" />
+        <Button fx:id="btn_save" layoutX="192.0" layoutY="218.0" mnemonicParsing="false" onAction="#btn_save" prefHeight="30.0" prefWidth="90.0" text="Save" />
+        <Button fx:id="btn_delete" layoutX="344.0" layoutY="218.0" mnemonicParsing="false" onAction="#btn_delete" prefHeight="30.0" prefWidth="90.0" text="Delete" />
+    </children>
+</AnchorPane>

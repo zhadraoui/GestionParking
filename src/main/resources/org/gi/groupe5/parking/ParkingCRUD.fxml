@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600" stylesheets="@../../../../img/mycss.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.gi.groupe5.ControllersViews.ParkingCrudController">
+    <children>
+        <TextField fx:id="tb_id" disable="true" layoutX="200.0" layoutY="50.0" prefHeight="25.0" prefWidth="328.0" />
+        <TextField fx:id="tb_capacite" disable="true" layoutX="200.0" layoutY="90.0" prefHeight="25.0" prefWidth="328.0" />
+        <TextArea fx:id="tb_adresse" layoutX="200.0" layoutY="137.0" prefHeight="66.0" prefWidth="328.0" />
+        <Label layoutX="31.0" layoutY="50.0" text="Identifiant Parking" />
+        <Label layoutX="31.0" layoutY="90.0" text="Capacité" />
+        <Label layoutX="33.0" layoutY="137.0" text="Adresse" />
+        <Button fx:id="btn_add" layoutX="132.0" layoutY="299.0" onAction="#btn_new" prefHeight="30.0" prefWidth="114.0" text="New" />
+        <Button fx:id="btn_update" layoutX="277.0" layoutY="299.0" onAction="#btn_save" prefHeight="30.0" prefWidth="114.0" text="Save" />
+        <Button fx:id="btn_delete" layoutX="412.0" layoutY="299.0" onAction="#btn_delete" prefHeight="30.0" prefWidth="114.0" text="Delete" />
+    </children>
+</AnchorPane>

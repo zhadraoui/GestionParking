@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="600.0" prefWidth="1024.0" stylesheets="@../../../../img/mycss.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.gi.groupe5.ControllersViews.UserController">
+    <children>
+        <Label layoutX="25.0" layoutY="15.0" text="Recherche">
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+        </Label>
+        <TextField fx:id="filterField" layoutX="138.0" layoutY="17.0" prefHeight="25.0" prefWidth="352.0" />
+        <TableView fx:id="table_user" onMouseClicked="#onClick" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columns>
+                <TableColumn fx:id="col_id" editable="false" prefWidth="40.0" text="ID" />
+                <TableColumn fx:id="col_login" editable="false" prefWidth="80.0" text="Login"/>
+                <TableColumn fx:id="col_password" editable="false" prefWidth="250.0" text="Password"/>
+                <TableColumn fx:id="col_date_first_insc" editable="false" prefWidth="155.0" text="Premiere Inscription" />
+                <TableColumn fx:id="col_date_last_con" editable="false" prefWidth="155.0" text="Derniere Connexion" />
+                <TableColumn fx:id="col_email" editable="false" prefWidth="180.0" text="Email" />
+                <TableColumn fx:id="col_role" editable="false" prefWidth="80.0" text="Rôle" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

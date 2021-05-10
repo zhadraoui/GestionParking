@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="650.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.gi.groupe5.ControllersViews.LoginController">
+    <children>
+        <AnchorPane layoutX="46.0" layoutY="32.0" prefHeight="519.0" prefWidth="606.0" AnchorPane.bottomAnchor="62.0" AnchorPane.leftAnchor="46.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="32.0">
+            <children>
+                <AnchorPane layoutX="327.0" layoutY="47.0" maxWidth="294.0" prefHeight="412.0" prefWidth="292.0" style="-fx-background-color: white; -fx-background-radius: 1em;" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="327.0" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="47.0">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutY="35.0" prefHeight="30.0" prefWidth="0.0" text="Connexion" textFill="#00b4db" AnchorPane.bottomAnchor="412.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="20.0">
+                            <font>
+                                <Font name="System Bold" size="26.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="19.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../img/login.png" />
+                            </image>
+                        </ImageView>
+                        <TextField fx:id="tb_login" layoutX="58.0" layoutY="116.0" prefHeight="40.0" prefWidth="259.0" promptText="Username" style="-fx-effect:dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);" text="admin" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="25.0">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </TextField>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="19.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../img/password.png" />
+                            </image>
+                        </ImageView>
+                        <PasswordField fx:id="tb_password" layoutX="56.0" layoutY="180.0" prefHeight="40.0" promptText="Password" style="-fx-effect:dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);" text="admin" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="25.0">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </PasswordField>
+                        <Button fx:id="btn_login" contentDisplay="CENTER" layoutX="35.0" layoutY="275.0" onAction="#Login_onClick" prefHeight="37.0" prefWidth="140.0" style="-fx-background-color:linear-gradient(to right, #60e1ff, #00b6f8);-fx-background-radius: 1em; -fx-background-radius:8;-fx-text-fill: white;-fx-effect:dropshadow(gaussian, rgba(0, 0, 0, 0.3), 20, 0.5, 0.0, 0.0);" text="Login" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="35.0" AnchorPane.rightAnchor="167.0">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </Button>
+                        <Button fx:id="btn_cancel" contentDisplay="CENTER" layoutX="188.0" layoutY="275.0" onAction="#cancel_onClick" prefHeight="37.0" prefWidth="140.0" style="-fx-background-color:linear-gradient(to right, #60e1ff, #00b6f8);-fx-background-radius: 1em; -fx-background-radius:8;-fx-text-fill: white;-fx-effect:dropshadow(gaussian, rgba(0, 0, 0, 0.3), 20, 0.5, 0.0, 0.0);" text="Cancel" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="188.0" AnchorPane.rightAnchor="14.0">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </Button>
+                    </children>
+                    <effect>
+                        <DropShadow />
+                    </effect>
+                </AnchorPane>
+                <AnchorPane layoutY="33.0" prefHeight="490.0" prefWidth="228.0" style="-fx-background-color: linear-gradient(to right, #00b4db, #0083b0); -fx-background-radius: 1em;" AnchorPane.bottomAnchor="33.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="33.0">
+                    <children>
+                        <Label alignment="BOTTOM_LEFT" contentDisplay="CENTER" layoutX="62.0" layoutY="44.0" text="BABEL PARKING" textAlignment="CENTER" textFill="WHITE" textOverrun="LEADING_ELLIPSIS">
+                            <font>
+                                <Font name="Symbol" size="30.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="254.0" fitWidth="342.0" layoutX="1.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../img/parking-logo.png" />
+                            </image>
+                        </ImageView>
+                        <Label alignment="BOTTOM_LEFT" contentDisplay="CENTER" layoutX="73.0" layoutY="390.0" prefHeight="26.0" prefWidth="194.0" text="Automated Parking System" textFill="WHITE">
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="BOTTOM_LEFT" contentDisplay="CENTER" layoutX="116.0" layoutY="432.0" text="FPT Developers" textFill="WHITE">
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+                        </Label>
+                    </children>
+                    <effect>
+                        <DropShadow />
+                    </effect>
+                </AnchorPane>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

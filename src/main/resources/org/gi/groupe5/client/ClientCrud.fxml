@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="480.0" prefWidth="453.0" stylesheets="@../../../../img/mycss.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.gi.groupe5.ControllersViews.ClientCrudController">
+    <children>
+        <Label layoutX="63.0" layoutY="39.0" text="ID Client" />
+        <Label layoutX="63.0" layoutY="84.0" text="CIN" />
+        <Label layoutX="63.0" layoutY="125.0" text="Nom" />
+        <Label layoutX="63.0" layoutY="170.0" text="Prenom" />
+        <Label layoutX="63.0" layoutY="212.0" text="GSM" />
+        <Label layoutX="61.0" layoutY="257.0" text="Adresse" />
+        <Label layoutX="63.0" layoutY="301.0" text="Email" />
+        <Label layoutX="60.0" layoutY="345.0" text="ID Vehicule" />
+
+        <TextField fx:id="tb_idclient" layoutX="157.0" layoutY="35.0" prefWidth="200.0" />
+        <TextField fx:id="tb_cin" layoutX="157.0" layoutY="80.0" prefWidth="200.0" />
+        <TextField fx:id="tb_nom" layoutX="157.0" layoutY="121.0" prefWidth="200.0" />
+        <TextField fx:id="tb_prenom" layoutX="157.0" layoutY="166.0" prefWidth="200.0" />
+        <TextField fx:id="tb_gsm" layoutX="157.0" layoutY="208.0" prefWidth="200.0" />
+        <TextField fx:id="tb_adresse" layoutX="157.0" layoutY="253.0" prefWidth="200.0" />
+        <TextField fx:id="tb_email" layoutX="157.0" layoutY="297.0" prefWidth="200.0" />
+        <ComboBox fx:id="cb_idvehicule" layoutX="157.0" layoutY="340.0" prefWidth="200.0" />
+        <Button fx:id="btn_new" layoutX="42.0" layoutY="417.0" mnemonicParsing="false" onAction="#btn_new" prefHeight="30.0" prefWidth="84.0" text="New" />
+        <Button fx:id="btn_save" layoutX="186.0" layoutY="417.0" mnemonicParsing="false" onAction="#btn_save" prefHeight="30.0" prefWidth="84.0" text="Save" />
+        <Button fx:id="btn_delete" layoutX="326.0" layoutY="417.0" mnemonicParsing="false" onAction="#btn_delete" prefHeight="30.0" prefWidth="77.0" text="Delete" />
+    </children>
+</AnchorPane>

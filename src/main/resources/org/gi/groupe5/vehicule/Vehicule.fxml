@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane stylesheets="@../../../../img/mycss.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.gi.groupe5.ControllersViews.VehiculeController">
+    <children>
+        <Label layoutX="25.0" layoutY="15.0" text="Recherche">
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+        </Label>
+        <TextField fx:id="filterField" layoutX="138.0" layoutY="17.0" prefHeight="25.0" prefWidth="246.0" />
+        <TableView fx:id="table_vehicule" layoutX="-175.0" onMouseClicked="#click" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="60.0">
+            <columns>
+                <TableColumn fx:id="col_idvehicule" prefWidth="226.0" text="ID Vehicule" />
+                <TableColumn fx:id="col_matricule" minWidth="0.0" prefWidth="281.0" text="Matricule" />
+            </columns>
+        </TableView>
+      <Button fx:id="btn_refresh" layoutX="410.0" layoutY="13.0" mnemonicParsing="false" onAction="#refresh_onClick" prefHeight="30.0" prefWidth="75.0" text="refresh" />
+    </children>
+</AnchorPane>

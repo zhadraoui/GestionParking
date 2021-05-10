@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="395.0" prefWidth="450.0" stylesheets="@../../../../img/mycss.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.gi.groupe5.ControllersViews.OccupationCrudController">
+    <children>
+        <Label layoutX="31.0" layoutY="60.0" text="Identifiant" />
+        <Label layoutX="31.0" layoutY="231.0" text="Date entrée" />
+        <Label layoutX="32.0" layoutY="95.0" text="Parking" />
+        <Label layoutX="32.0" layoutY="141.0" text="Place" />
+        <Label layoutX="32.0" layoutY="187.0" text="Vehicule" />
+
+        <TextField fx:id="tb_id_occupation" disable="true" layoutX="156.0" layoutY="50.0" prefHeight="25.0" prefWidth="264.0" />
+        <ComboBox fx:id="cb_parking" layoutX="156.0" layoutY="91.0" onAction="#parking_onClick" prefHeight="25.0" prefWidth="264.0" />
+        <ComboBox fx:id="cb_place" layoutX="156.0" layoutY="135.0" prefHeight="25.0" prefWidth="264.0" />
+        <ComboBox fx:id="cb_vehicule" layoutX="156.0" layoutY="183.0" prefHeight="25.0" prefWidth="264.0" />
+        <DatePicker fx:id="tb_date_debut" editable="false" layoutX="155.0" layoutY="225.0" prefHeight="25.0" prefWidth="165.0" />
+        <TextField fx:id="tb_heure_debut" layoutX="321.0" layoutY="225.0" prefHeight="25.0" prefWidth="45.0" promptText="hh" />
+        <TextField fx:id="tb_min_debut" alignment="CENTER" layoutX="375.0" layoutY="225.0" prefHeight="25.0" prefWidth="45.0" promptText="mm" />
+
+
+        <Button fx:id="btn_new" layoutX="30.0" layoutY="326.0" onAction="#btn_new" prefWidth="114.0" text="New" />
+        <Button fx:id="btn_save" layoutX="175.0" layoutY="326.0" onAction="#btn_save" prefWidth="114.0" text="Save" />
+        <Button fx:id="btn_delete" layoutX="310.0" layoutY="326.0" onAction="#btn_delete" prefWidth="114.0" text="Delete" />
+      <Label layoutX="369.0" layoutY="223.0" text=":">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+
+    </children>
+
+    </AnchorPane>

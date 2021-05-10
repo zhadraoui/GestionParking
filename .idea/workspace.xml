@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88b3e6c0-c11b-4f56-b89f-d926600235f2" name="Default Changelist" comment="combobox parkin place">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jai_imageio_jai_imageio_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_2_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_lept4j_lept4j_1_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_tess4j_tess4j_4_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_fontbox_2_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_jbig2_imageio_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_2_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_debugger_2_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_tools_2_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_xmlgraphics_commons_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ghost4j_ghost4j_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_vfs_3_2_15_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_4_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tigger.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script BD MYSQL/gestionprac.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/DetectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/PaimentCrudController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/UpdatePasswordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Models/Paiement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/dao/ClientDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/dao/DaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/dao/OccupationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/dao/PaiementDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/dao/ParkingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/dao/PlaceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/dao/TarifDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/dao/VehiculeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/manager/ClientManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/manager/PaiementManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/manager/ParkingManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/manager/PlaceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/manager/TarifManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/manager/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/manager/VehiculeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/car11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/car2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/car3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/client-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/password-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/tarif.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/tarif.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/tarifs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/tessdata/eng.traineddata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/user-settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/detection/Detection.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/paiment/PaiementCrud.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/user/UpdatePassword.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfoenix_jfoenix_9_0_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_bootstrapfx_bootstrapfx_core_0_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestionParkingAuto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GestionParkingAuto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersDB/ClientDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersDB/LoginDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersDB/ParkingDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersDB/PlaceDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersDB/ReservationDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/manager/OccupationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersDB/TarifDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersDB/UserDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersDB/VehiculeDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/ClientCrudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/ClientCrudController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/MainControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/MainControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/ParkingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/ParkingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/ParkingCrudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/ParkingCrudController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/PlaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/PlaceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/PlaceCrudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/PlaceCrudController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/OccupationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/ReservationCrudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/OccupationCrudController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/TarifController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/TarifController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/TarifCrudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/TarifCrudController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/UserCrudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/UserCrudController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/VehiculeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/VehiculeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/VehiculeCrudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/VehiculeCrudController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Models/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Models/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Models/Parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Models/Parking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Models/Place.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Models/Place.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Models/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Models/Occupation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Models/Tarif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Models/Tarif.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Models/Vehicule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Models/Vehicule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Winowds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gi/groupe5/Windows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/mycss.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/mycss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/client/ClientCrud.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/client/ClientCrud.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/dashboard/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/dashboard/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/parking/Parking.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/parking/Parking.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/parking/ParkingCRUD.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/parking/ParkingCRUD.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/place/Place.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/place/Place.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/place/PlaceCrud.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/place/PlaceCrud.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/reservation/Reservation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/occupation/Occupation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/reservation/ReservationCrud.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/occupation/OccupationCrud.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/tarif/Tarif.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/tarif/Tarif.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/tarif/TarifCrud.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/tarif/TarifCrud.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/user/User.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/user/User.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/user/UserCrud.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/user/UserCrud.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/vehicule/Vehicule.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/vehicule/Vehicule.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/vehicule/VehiculeCrud.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/gi/groupe5/vehicule/VehiculeCrud.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="controller_client_vehicule" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/zakaria" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="login" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/ClientController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/TarifCrudController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/ClientCrudController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/org/gi/groupe5/tarif/TarifCrud.fxml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/org/gi/groupe5/tarif/Tarif.fxml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/TarifController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/org/gi/groupe5/statistique/lignebar.fxml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/LignebarControllers.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/org/gi/groupe5/user/User.fxml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/UserController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/org/gi/groupe5/user/UserCrud.fxml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/ParkingCrudController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/PlaceCrudController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/ParkingController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/gi/groupe5/ControllersViews/PlaceController.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1rg7a4SZn4n19mDjd0qDz9Bphdg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/gi/groupe5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/img" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.47179487" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\test\GestionParcAuto\src\main\resources\img" />
+      <recent name="C:\Users\BADR\IdeaProjects\GestionParcAuto\src\main\java\org\gi\groupe5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\test\GestionParcAuto\src\main\java\org\gi\groupe5\ControllersDB" />
+      <recent name="D:\test\GestionParcAuto\src\main\resources\org\gi\groupe5\dashboard" />
+      <recent name="D:\test\GestionParcAuto\src\main\java\org\gi\groupe5" />
+      <recent name="D:\test\GestionParcAuto\src\main\resources\img" />
+      <recent name="D:\test\GestionParcAuto\src\main\java\org\gi\groupe5\ControllersViews" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.gi.groupe5" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.gi.groupe5.ControllersDB" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.gi.groupe5.App" />
+      <module name="GestionParkingAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.gi.groupe5.ControllersViews.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OccupationManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.gi.groupe5.manager.OccupationManager" />
+      <module name="GestionParkingAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.gi.groupe5.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.OccupationManager" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.OccupationManager" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88b3e6c0-c11b-4f56-b89f-d926600235f2" name="Default Changelist" comment="" />
+      <created>1619385945489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619385945489</updated>
+      <workItem from="1619385959848" duration="3965000" />
+      <workItem from="1619398138026" duration="647000" />
+      <workItem from="1619399071116" duration="13535000" />
+      <workItem from="1619774660034" duration="8707000" />
+      <workItem from="1619819224952" duration="14191000" />
+      <workItem from="1619833637418" duration="72000" />
+      <workItem from="1619833746523" duration="12000" />
+      <workItem from="1619833767680" duration="1045000" />
+      <workItem from="1619835109706" duration="2445000" />
+      <workItem from="1619838098479" duration="12192000" />
+      <workItem from="1619851053049" duration="1082000" />
+      <workItem from="1619889750090" duration="385000" />
+      <workItem from="1619893865103" duration="76000" />
+      <workItem from="1619911196237" duration="317000" />
+      <workItem from="1619921856775" duration="7866000" />
+      <workItem from="1620002517492" duration="1690000" />
+      <workItem from="1620244796867" duration="294000" />
+      <workItem from="1620251203409" duration="4154000" />
+      <workItem from="1620261052806" duration="7585000" />
+      <workItem from="1620296772175" duration="6694000" />
+      <workItem from="1620323475826" duration="17643000" />
+      <workItem from="1620383459096" duration="933000" />
+      <workItem from="1620387642103" duration="92516000" />
+      <workItem from="1620500288785" duration="45197000" />
+      <workItem from="1620585252111" duration="21981000" />
+      <workItem from="1620627548206" duration="6510000" />
+      <workItem from="1620634961171" duration="2125000" />
+      <workItem from="1620661036399" duration="2738000" />
+    </task>
+    <task id="LOCAL-00001" summary="ajoutrer fichier .gitignore">
+      <created>1619387370162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619387370162</updated>
+    </task>
+    <task id="LOCAL-00002" summary="CRUD Controllers">
+      <created>1619398452735</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619398452735</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CRUD Controllers">
+      <created>1619398754296</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619398754296</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Dashboard Interface">
+      <created>1619748564575</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619748564576</updated>
+    </task>
+    <task id="LOCAL-00005" summary="creation interface place te traif">
+      <created>1619783927803</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619783927803</updated>
+    </task>
+    <task id="LOCAL-00006" summary="creation interface place te traif">
+      <created>1619825910715</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619825910715</updated>
+    </task>
+    <task id="LOCAL-00007" summary="creation interface place te traif">
+      <created>1619827912186</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619827912186</updated>
+    </task>
+    <task id="LOCAL-00008" summary="creation interface place te traif">
+      <created>1619828558466</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619828558466</updated>
+    </task>
+    <task id="LOCAL-00009" summary="creation interface place te traif">
+      <created>1619833344848</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619833344848</updated>
+    </task>
+    <task id="LOCAL-00010" summary="programmation_radiobutton_place">
+      <created>1619914726917</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619914726917</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fixe probleme selected combobox in place">
+      <created>1619917326468</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1619917326468</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ajouter un champs pour lheure debut et fin&#10;appliqué un maskfilter pour le champs prix et le champs prix">
+      <created>1620262654369</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620262654369</updated>
+    </task>
+    <task id="LOCAL-00013" summary="combobox parkin place">
+      <created>1620268943812</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620268943812</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="ajoutrer fichier .gitignore" />
+    <MESSAGE value="CRUD Controllers" />
+    <MESSAGE value="MVC PATTERN" />
+    <MESSAGE value="Dashboard Interface" />
+    <MESSAGE value="creation interface place te traif" />
+    <MESSAGE value="programmation_radiobutton_place" />
+    <MESSAGE value="fixe probleme selected combobox in place" />
+    <MESSAGE value="ajouter les controllers des tables client et vehicule" />
+    <MESSAGE value="ajouter un champs pour lheure debut et fin&#10;appliqué un maskfilter pour le champs prix et le champs prix" />
+    <MESSAGE value="combobox parkin place" />
+    <option name="LAST_COMMIT_MESSAGE" value="combobox parkin place" />
+  </component>
+</project>

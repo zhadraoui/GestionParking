@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="404.0" prefWidth="453.0" stylesheets="@../../../../img/mycss.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.gi.groupe5.ControllersViews.UserCrudController">
+    <children>
+
+        <Label layoutX="63.0" layoutY="30.0" text="Identifiant Utilisateur" />
+        <Label layoutX="63.0" layoutY="70.0" text="Login" />
+        <Label layoutX="63.0" layoutY="110.0" text="Mot de passe" />
+        <Label layoutX="63.0" layoutY="150.0" text="Date Inscription" />
+        <Label layoutX="63.0" layoutY="190.0" prefHeight="17.0" prefWidth="136.0" text="Derniere Connexion" />
+        <Label layoutX="63.0" layoutY="230.0" prefWidth="46.0" text="Email" />
+        <Label layoutX="63.0" layoutY="270.0" text="Role" />
+        <TextField fx:id="tb_iduser" disable="true" layoutX="210.0" layoutY="30.0" prefWidth="200.0" />
+        <TextField fx:id="tb_login" layoutX="210.0" layoutY="70.0" prefWidth="200.0" />
+        <PasswordField fx:id="tb_password" disable="true" layoutX="210.0" layoutY="110.0" prefWidth="200.0" />
+        <TextField fx:id="tb_firstincr" disable="true" layoutX="210.0" layoutY="150.0" prefWidth="200.0" />
+        <TextField fx:id="tb_lastconn" disable="true" layoutX="210.0" layoutY="190.0" prefWidth="200.0" />
+        <TextField fx:id="tb_email" layoutX="210.0" layoutY="230.0" prefHeight="25.0" prefWidth="200.0" />
+        <ComboBox fx:id="cb_role" layoutX="210.0" layoutY="270.0" prefWidth="200.00" />
+
+        <Button fx:id="btn_new" layoutX="78.0" layoutY="340.0" mnemonicParsing="false" onAction="#btn_new" prefWidth="100.0" text="New" />
+        <Button fx:id="btn_save" layoutX="208.0" layoutY="338.0" mnemonicParsing="false" onAction="#btn_save" prefWidth="100.0" text="Save" />
+        <Button fx:id="btn_delete" layoutX="329.0" layoutY="338.0" mnemonicParsing="false" onAction="#btn_delete" prefWidth="100.0" text="Delete" />
+
+
+    </children>
+</AnchorPane>

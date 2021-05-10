@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="320.0" prefWidth="450.0" stylesheets="@../../../../img/mycss.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.gi.groupe5.ControllersViews.PlaceCrudController">
+    <children>
+        <Label layoutX="31.0" layoutY="60.0" text="Identifiant Place" />
+        <Label layoutX="31.0" layoutY="100.0" text="Description" />
+        <Label layoutX="31.0" layoutY="140.0" text="Etat" />
+        <Label layoutX="31.0" layoutY="180.0" text="Parking" />
+
+        <TextField fx:id="tb_id_palce" disable="true" layoutX="200.0" layoutY="50.0" prefHeight="25.0" prefWidth="220.0" />
+        <TextField fx:id="tb_description" layoutX="200.0" layoutY="90.0" prefHeight="25.0" prefWidth="220.0" />
+        <ComboBox fx:id="cb_parking" layoutX="200.0" layoutY="170.0" prefHeight="25.0" prefWidth="220.0" />
+        <Button fx:id="btn_new" layoutX="30.0" layoutY="263.0" onAction="#btn_new" prefHeight="30.0" prefWidth="114.0" text="New" />
+        <Button fx:id="btn_save" layoutX="175.0" layoutY="263.0" onAction="#btn_save" prefHeight="30.0" prefWidth="114.0" text="Save" />
+        <Button fx:id="btn_delete" layoutX="310.0" layoutY="263.0" onAction="#btn_delete" prefHeight="30.0" prefWidth="114.0" text="Delete" />
+        <RadioButton fx:id="rb_etat_oui" disable="true" layoutX="200.0" layoutY="132.0" mnemonicParsing="false" text="Oui">
+         <toggleGroup>
+            <ToggleGroup fx:id="etat" />
+         </toggleGroup>
+        </RadioButton>
+        <RadioButton fx:id="rb_etat_non" disable="true" layoutX="266.0" layoutY="132.0" mnemonicParsing="false" text="Non" toggleGroup="$etat" />
+    </children>
+
+</AnchorPane>

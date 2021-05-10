@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner signature="Workspace" version="16.6.10.6261"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Workspace>
+	<Local Expanded="Yes">
+		<Model Expanded="Yes" ID="{5FFA63FF-F894-4E66-A3C1-29F29869A1CC}" Name="ModeleOrienteObjet_1" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="ModeleOrienteObjet_1.moo"/>
+	</Local>
+	<BrowserModule Name="Repository"/>
+</Workspace>
